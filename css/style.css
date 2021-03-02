@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'graphik';
+  src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf'); /* IE9 Compat Modes */
+  src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf') format('woff2'), /* Super Modern Browsers */
+       url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf') format('woff'), /* Pretty Modern Browsers */
+       url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608377329/GraphikBold_h89fk4.otf') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'graphik-semi';
+  src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608378653/GraphikSemibold_aquyhl.otf');
+}
+
+@font-face {
+  font-family: 'graphik-medium';
+  src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1608378665/GraphikMedium_dkelgx.otf');
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+:root {
+  --base: rgb(0, 195, 255);
+  --background: rgb(55, 97, 173);
+  --background-white: rgb(255, 255, 255);
+  --text-colour:
+  --box-background: #F5F7F9;
+  --pink:#E12EA1;
+  --purple:#28035A;
+  --blue:#334AFB;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+body {
+  /* background-color:var(--background-white); */
+  background-color: #000;
+  min-height: 100vh;
+  border: 10px solid #000;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+
+
+.container {
+  /* background-color:#F5F5F5; */
+  max-width: 1100px;
+  min-height: 100vh;
+  margin: 0px auto;
+  text-align: center;
+}
+
+h1 {
+  color:#fff;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1000px) {}
+
+
+@media only screen and (max-width: 800px) {}
+ 
+
+@media only screen and (max-width: 600px) {}
+
+
+@media only screen and (max-width: 500px) {}
+
+@media only screen and (max-width: 350px) {}
